@@ -1,0 +1,149 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #f1f1f1;
+  font-family: Roboto Condensed;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  background: #030372;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav .left {
+  display: flex;
+  margin-left: 10px;
+}
+.menu-list ul {
+  display: flex;
+}
+.menu-list ul li {
+  margin: 0.8rem 1.5rem;
+}
+.menu-list ul li a {
+  font-size: 15px;
+}
+.logo{
+    font-size: 25px;
+}
+.search-input i{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 25px;
+    color: #000;
+}
+#search {
+  width: 18rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin: 8px 10px 0px 10px;
+  font-size: 20px;
+}
+.contact {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-size: 22.5px;
+}
+.num {
+  color: #e1bd44;
+}
+
+.down{
+    margin-left: 10px;
+}
+/* Headear style */
+
+.head {
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.head-bg-img img {
+  width: 100%;
+  height: 88.9vh;
+  object-position: fill;
+}
+.head-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+}
+.head-text p {
+  text-align: center;
+  margin-left: -23rem;
+  color: #030372;
+  font-size: 3em;
+}
+
+.head-text h2 {
+  text-align: center;
+  margin-top: -2rem;
+  margin-left: -23rem;
+  color: #030372;
+  font-size: 4.5em;
+}
+
+.bar {
+  background: #989b56;
+  width: 70vw;
+  height: 3rem;
+  position: absolute;
+  top: 25rem;
+  left: 15rem;
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.left-bar {
+  background: #e8c91e;
+  width: 5rem;
+  height: 4rem;
+  border-bottom-left-radius: 50px;
+}
+.center-bar{
+    width: 47.5rem;
+    height: 4rem;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+}
+.center-bar div{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 16rem;
+    display: flex;
+    justify-content: space-between;             
+}
+.center-bar div i{
+    margin-top: 1.5rem;
+    color: #000;
+}
+.center-bar div p{
+    color: #000;
+    font-size: 20px;
+
+}
+.right-bar {
+  background: #e8c91e;
+  width: 15rem;
+  height: 4rem;
+  border-bottom-right-radius: 50px;
+}
+.right-bar p{
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
